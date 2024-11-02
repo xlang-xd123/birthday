@@ -32,12 +32,12 @@ var config = {
     desc: {
         turn_on: "开灯",
         play: "放点音乐",
-        bannar_coming: "颜色",
+        bannar_coming: "装修一下",
         balloons_flying: "好像少点东西",
         cake_fadein: "蛋糕？",
         light_candle: "蜡烛？",
         wish_message: "生日快乐",
         story: "A MESSAGE FOR YOU",
-        surprise: "你以为这就结束了"
+        surprise: "你以为这就结束了",
     }
 };
