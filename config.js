@@ -27,7 +27,7 @@ var config = {
      */
     imgs: {
         "送给": "./imgs/image.png",
-        "我的老婆宝贝小可爱": "./imgs/xiaokeai.png",
+        "我的老婆宝贝小可爱秋宝同学": "./imgs/xiaokeai.png",
         "这是我们在一起的": "./imgs/kiss.png",
         "第一个生日哦": "./imgs/first.jpg",
         // "今天是你的生日": "./imgs/birthday.jpg",
