@@ -27,6 +27,8 @@ var config = {
     imgs: {
         "我的老婆宝贝小可爱": "./imgs/xiaokeai.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
+        "希望我们能一起过呀": "./imgs/yiqi.png",
+        
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
