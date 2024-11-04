@@ -28,11 +28,14 @@ var config = {
     imgs: {
         "送给": "./imgs/image.png",
         "我的老婆宝贝小可爱秋宝同学": "./imgs/xiaokeai.png",
+        // "今天是你的生日",
         "这是我们在一起的": "./imgs/kiss.png",
         "第一个生日哦": "./imgs/first.jpg",
-        // "今天是你的生日": "./imgs/birthday.jpg",
+        "明年的生日": "./imgs/yiqi.png",
         "希望我们能一起过呀": "./imgs/yiqi.png",
+        "到时候要吃好的喽": "",
         "要把我家可爱猪猪喂饱饱": "./imgs/xiaomao.png",
+        "然后抱走": "./imgs/hug.png",
         "YAMI~~": "./imgs/yami.png",
         
     },

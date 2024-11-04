@@ -191,13 +191,10 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#surprise').fadeIn('slow');
-
 		
 	});
 	$('#surprise').click(function(){
-		var audio = $('.speak_song')[0];
+		var audio = $('.song')[0];
         audio.play();
 	});
 
