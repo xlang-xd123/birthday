@@ -181,10 +181,10 @@ $('document').ready(function(){
 			if(i==12){
 				$("p:nth-child(11)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-					var audio = $('.song')[0];
-					audio.pause();
-					var audio = $('.speak_song')[0];
-					audio.play();
+					// var audio = $('.song')[0];
+					// audio.pause();
+					// var audio = $('.speak_song')[0];
+					// audio.play();
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
 						$('#surprise').fadeIn('slow');
 						});
