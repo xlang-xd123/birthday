@@ -199,6 +199,11 @@ $('document').ready(function(){
 		
 	});
 	$('#surprise').click(function(){
+		$(this).fadeOut('slow');
+
+		// audio  off
+		var audio = $('.song')[0];
+		audio.pause();
 		var audio = $('.speak_song')[0];
         audio.play();
 	});
