@@ -180,7 +180,11 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==12){
 				$("p:nth-child(11)").fadeOut('slow').promise().done(function () {
-				// 	$('.cake').fadeIn('fast');
+					$('.cake').fadeIn('fast');
+					var audio = $('.song')[0];
+					audio.pause();
+					var audio = $('.speak_song')[0];
+					audio.play();
 				});
 				
 			}
@@ -194,22 +198,22 @@ $('document').ready(function(){
 		
 		msgLoop(0);
 
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#surprise').fadeIn('slow');
-			});
+		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
+		// 	$('#surprise').fadeIn('slow');
+		// 	});
 
 		
 	});
-	$('#surprise').click(function(){
-		$(this).fadeOut('slow');
+	// $('#surprise').click(function(){
+	// 	$(this).fadeOut('slow');
 
-		// audio  off
-		var audio = $('.song')[0];
-		audio.pause();
-		var audio = $('.speak_song')[0];
-        audio.play();
-		$('.cake').fadeIn('fast');
-	});
+	// 	// audio  off
+	// 	var audio = $('.song')[0];
+	// 	audio.pause();
+	// 	var audio = $('.speak_song')[0];
+    //     audio.play();
+	// 	$('.cake').fadeIn('fast');
+	// });
 
 
 
