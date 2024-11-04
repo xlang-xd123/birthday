@@ -1,7 +1,7 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
-	$('#surprise').fadeOut('slow');
+	
 });
 $('document').ready(function(){
 		var vw;
@@ -16,7 +16,7 @@ $('document').ready(function(){
 			$('#b66').animate({top:240, left: vw+150},500);
 			$('#b77').animate({top:240, left: vw+250},500);
 		});
-
+	$('#surprise').fadeOut('slow');
 	$('#turn_on').click(function(){
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
