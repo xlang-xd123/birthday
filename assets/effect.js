@@ -178,7 +178,7 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==12){
 				$("p:nth-child(11)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
+				// 	$('.cake').fadeIn('fast');
 				});
 				
 			}
@@ -206,6 +206,7 @@ $('document').ready(function(){
 		audio.pause();
 		var audio = $('.speak_song')[0];
         audio.play();
+		$('.cake').fadeIn('fast');
 	});
 
 
