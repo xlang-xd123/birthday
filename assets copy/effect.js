@@ -1,6 +1,7 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
+	$('#surprise').fadeOut('slow');
 });
 $('document').ready(function(){
 		var vw;
