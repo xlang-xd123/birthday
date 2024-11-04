@@ -26,7 +26,7 @@ var config = {
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "送给": "./imgs/image.png",
+        "送给": "./imgs/flower.png",
         "我的老婆宝贝小可爱秋宝同学": "./imgs/xiaokeai.png",
         // "今天是你的生日",
         "这是我们在一起的": "./imgs/kiss.png",
