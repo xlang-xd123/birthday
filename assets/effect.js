@@ -185,6 +185,9 @@ $('document').ready(function(){
 					audio.pause();
 					var audio = $('.speak_song')[0];
 					audio.play();
+					$(this).fadeOut('slow').delay(3000).promise().done(function(){
+						$('#surprise').fadeIn('slow');
+						});
 				});
 				
 			}
@@ -198,22 +201,20 @@ $('document').ready(function(){
 		
 		msgLoop(0);
 
-		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
-		// 	$('#surprise').fadeIn('slow');
-		// 	});
+		
 
 		
 	});
-	// $('#surprise').click(function(){
-	// 	$(this).fadeOut('slow');
+	$('#surprise').click(function(){
+		$(this).fadeOut('slow');
 
-	// 	// audio  off
-	// 	var audio = $('.song')[0];
-	// 	audio.pause();
-	// 	var audio = $('.speak_song')[0];
-    //     audio.play();
-	// 	$('.cake').fadeIn('fast');
-	// });
+		// audio  off
+		var audio = $('.song')[0];
+		audio.pause();
+		var audio = $('.speak_song')[0];
+        audio.play();
+		$('.cake').fadeIn('fast');
+	});
 
 
 
