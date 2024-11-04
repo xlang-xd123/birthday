@@ -195,6 +195,7 @@ $('document').ready(function(){
 		
 	});
 	$('#surprise').click(function(){
+		$(this).fadeOut('slow');
 		var audio = $('.song')[0];
         audio.play();
 	});
