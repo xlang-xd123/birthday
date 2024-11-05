@@ -29,6 +29,19 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
+		const tl = new TimelineMax();
+		tl.staggerTo(
+			".eight svg",
+			1.5,
+			{
+			  visibility: "visible",
+			  opacity: 0,
+			  scale: 80,
+			  repeat: 3,
+			  repeatDelay: 1.4
+			},
+			0.3
+		  )
 	});
 	$('#play').click(function(){
 		var audio = $('.song')[0];
