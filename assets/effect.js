@@ -30,7 +30,10 @@ $('document').ready(function(){
 			$('#play').fadeIn('slow');
 		});
 		const tl = new TimelineMax();
-		tl.staggerTo(
+		tl.to(".container", 0.1, {
+			visibility: "visible"
+		  })
+		.staggerTo(
 			".eight svg",
 			1.5,
 			{
